@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rezeptideen – Fermentieren | GiB – Gesundheit in Bewegung</title>
+<style>
+:root {
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  --bg: #ffffff;
+  --text: #1c2321;
+  --muted: #6b7773;
+  --accent: #0078B4;
+  --line: #e6eae8;
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  color-scheme: light;
+}
+html { scroll-behavior: smooth; background: var(--bg); }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.7; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header { border-bottom: 1px solid var(--line); }
+header .wrap { display: flex; justify-content: space-between; align-items: baseline; padding-top: 24px; padding-bottom: 24px; }
+.logo { font-weight: 800; font-size: 1.3rem; letter-spacing: .03em; color: var(--text); }
+.logo span { font-weight: 400; font-size: .85rem; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+nav a { margin-left: 20px; font-size: .92rem; color: var(--muted); }
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+.intro { padding: 72px 0 24px; }
+.intro h1 { font-size: clamp(2rem, 6vw, 2.8rem); font-weight: 700; margin: 0 0 12px; line-height: 1.15; }
+.intro p { color: var(--muted); margin: 0; font-size: 1.05rem; }
+
+.recipe { padding: 56px 0 8px; border-top: 1px solid var(--line); margin-top: 48px; }
+.recipe:first-of-type { margin-top: 24px; }
+.label { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.recipe h2 { font-size: 1.7rem; margin: 6px 0 28px; line-height: 1.25; }
+h3 { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 32px 0 12px; font-weight: 600; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 6px; }
+.note { color: var(--muted); margin: 0; }
+ol { margin: 0; padding-left: 22px; }
+ol li { margin-bottom: 14px; padding-left: 6px; }
+ol li::marker { color: var(--accent); font-weight: 700; }
+
+.cta { margin-top: 72px; padding: 56px 0; border-top: 1px solid var(--line); }
+.cta h2 { margin: 0 0 6px; font-size: 1.3rem; }
+.cta p { margin: 0 0 18px; color: var(--muted); }
+.btn { display: inline-block; border: 1px solid var(--text); color: var(--text); padding: 10px 22px; border-radius: 999px; font-size: .95rem; }
+.btn:hover { background: var(--text); color: var(--bg); text-decoration: none; }
+
+footer { border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: .85rem; color: var(--muted); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+footer a { color: var(--muted); margin-left: 16px; }
+footer a:first-child { margin-left: 0; }
+@media (max-width: 520px) { .logo span { display: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="https://gib-gesundheit.de">
+      <img src="logo_gib.png" alt="GiB – Gesundheit in Bewegung" height="40">
+    </a>
+    <nav>
+      <a href="#sauerkraut">Sauerkraut</a>
+      <a href="#gemuese">Gemüse</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="intro">
+    <h1>Rezeptideen</h1>
+    <p>Zwei einfache Rezepte zum Fermentieren.</p>
+  </div>
+
+  <section class="recipe" id="sauerkraut">
+    <div class="label">Rezept 1</div>
+    <h2>Klassisches Sauerkraut</h2>
+
+    <h3>Zutaten (für 1 kg Weißkohl)</h3>
+    <ul>
+      <li>1000 g Weißkohl (ohne Strunk und äußere Blätter gewogen)</li>
+      <li>20 g unjodiertes Salz ohne Zusätze (2 % bezogen auf das Kohlgewicht)</li>
+      <li>Optional: 1 TL Kümmel, 2 Lorbeerblätter, 5 Wacholderbeeren</li>
+    </ul>
+
+    <h3>Zubereitung</h3>
+    <ol>
+      <li><strong>Kohl vorbereiten:</strong> Äußere Blätter entfernen, 1–2 saubere Blätter zum späteren Abdecken beiseitelegen. Strunk entfernen, Kohl wiegen und die Salzmenge berechnen (2 % = 20 g pro 1000 g).</li>
+      <li><strong>Hobeln und salzen:</strong> Kohl in feine Streifen schneiden oder hobeln, mit dem Salz (und optionalen Gewürzen) vermischen und 30 Minuten ziehen lassen. Das Salz entzieht dem Kohl Flüssigkeit.</li>
+      <li><strong>Stampfen:</strong> 10–15 Minuten mit den Händen oder einem Stampfer kneten, bis reichlich Saft austritt. Reicht der Saft nicht, weiter kneten und bis zu 1–2 Stunden ziehen lassen.</li>
+      <li><strong>Einfüllen:</strong> Den Kohl Schicht für Schicht fest ins saubere Glas drücken, sodass keine Lufteinschlüsse bleiben. Oben 3–4 cm Platz lassen.</li>
+      <li><strong>Beschweren:</strong> Mit dem beiseitegelegten Kohlblatt abdecken und mit einem Fermentiergewicht beschweren. Der Kohl muss vollständig unter der eigenen Lake liegen.</li>
+      <li><strong>Fermentieren:</strong> 2–4 Wochen bei 18–22 °C, ohne direkte Sonne. Bei geschlossenem Glas täglich kurz lüften (Druckausgleich), bei Fermentierdeckel mit Ventil ist das nicht nötig.</li>
+    </ol>
+
+    <h3>Fermentationsverlauf</h3>
+    <ul>
+      <li><strong>Tag 2–3:</strong> Bläschenbildung sichtbar. Glas auf eine Schale stellen, da Lake überlaufen kann.</li>
+      <li><strong>Tag 5–7:</strong> Gärung verlangsamt sich.</li>
+      <li><strong>Ab Tag 14:</strong> mild säuerlich, erste Verkostung möglich.</li>
+      <li><strong>Nach 3–4 Wochen:</strong> vollständig durchgereift.</li>
+      <li><strong>Lagerung:</strong> Im Kühlschrank wird die Fermentation stark verlangsamt. Das Sauerkraut hält sich dort mehrere Monate, solange es von Lake bedeckt bleibt.</li>
+    </ul>
+  </section>
+
+  <section class="recipe" id="gemuese">
+    <div class="label">Rezept 2</div>
+    <h2>Fermentierte Möhren, Weißkohl &amp; Radieschen</h2>
+
+    <h3>Zutaten (1 Glas, ca. 1 Liter)</h3>
+    <ul>
+      <li>300 g Möhren</li>
+      <li>250 g Weißkohl</li>
+      <li>150 g Radieschen</li>
+      <li>2 Knoblauchzehen</li>
+      <li>Optional: 1 TL Senfkörner oder 1 TL Kümmel</li>
+    </ul>
+
+    <h3>Lake</h3>
+    <p class="note">700 ml Wasser + 14 g unjodiertes Salz ohne Zusätze und möglichst ohne Rieselhilfen (2 %, bezogen auf das Wasser: 20 g pro Liter)</p>
+
+    <h3>Zubereitung</h3>
+    <ol>
+      <li><strong>Glas reinigen:</strong> Glas und Hände gründlich mit heißem Wasser reinigen. Das Glas muss nicht steril sein, aber sauber.</li>
+      <li><strong>Gemüse schneiden:</strong> Möhren in ca. 5 mm dicke Scheiben oder Stifte, Weißkohl in 1–2 cm breite Stücke, Radieschen in Scheiben schneiden.</li>
+      <li><strong>Schichten:</strong> Knoblauch und optionale Gewürze unten ins Glas geben, dann das Gemüse einfüllen.</li>
+      <li><strong>Andrücken:</strong> Gemüse sehr fest ins Glas drücken. Oben 3–4 cm Platz lassen.</li>
+      <li><strong>Lake ansetzen:</strong> 14 g Salz vollständig in 700 ml Wasser auflösen. Leitungswasser ist in der Regel geeignet. Riecht es stark nach Chlor, abgekochtes und vollständig abgekühltes Wasser verwenden.</li>
+      <li><strong>Übergießen:</strong> Lake über das Gemüse gießen. Alles muss unter der Oberfläche liegen, ideal sind mindestens 1–2 cm Lake über dem Gemüse.</li>
+      <li><strong>Beschweren:</strong> Möglichst ein Fermentiergewicht verwenden. Alternativ ein großes Kohlblatt oben einklemmen, damit keine Stücke aufschwimmen.</li>
+      <li><strong>Lagern:</strong> Bei 18–22 °C ohne direkte Sonneneinstrahlung lagern und täglich lüften (Druckausgleich).</li>
+    </ol>
+
+    <h3>Fermentationsverlauf</h3>
+    <ul>
+      <li><strong>Tag 1–2:</strong> äußerlich meist wenig Veränderung.</li>
+      <li><strong>Tag 2–4:</strong> kleine Bläschen, leichtes Zischen beim Öffnen, Lake wird trüb (normal).</li>
+      <li><strong>Ab Tag 5:</strong> erste Verkostung: leicht säuerlich und deutlich knackig.</li>
+      <li><strong>Tag 7–10:</strong> meist optimal: angenehm sauer, aromatisch, knackig.</li>
+      <li><strong>Tag 10–14:</strong> deutlich kräftiger und saurer.</li>
+      <li><strong>Lagerung:</strong> Wenn Geschmack und Säure passen, in den Kühlschrank stellen. Die Fermentation verlangsamt sich stark, das Gemüse hält sich bei sauberer Entnahme und Lakebedeckung mehrere Wochen bis Monate.</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <h2>Mehr Gesundheit im Arbeitsalltag?</h2>
+    <p>Wir helfen Ihnen gerne weiter.</p>
+    <a class="btn" href="https://gib-gesundheit.de/kontakt/">Kostenlose Beratung</a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 GiB – Gesundheit in Bewegung GmbH · 040 650 330 10</div>
+    <div>
+      <a href="https://gib-gesundheit.de/impressum/">Impressum</a>
+      <a href="https://gib-gesundheit.de/datenschutzerklaerung/">Datenschutz</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
